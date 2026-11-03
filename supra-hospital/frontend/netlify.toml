@@ -1,0 +1,5 @@
+[build]
+  # Install dependencies (including devDependencies such as Vite) before building,
+  # so the build works even when node_modules isn't already present.
+  command = "npm ci --include=dev --no-audit --no-fund && npm run build"
+  publish = "dist"
