@@ -7,7 +7,7 @@ import {
   Mail, Brain, Pill, Ambulance
 } from 'lucide-react'
 
-const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8080/api'
+const API = import.meta.env.VITE_API_URL || 'https://supra-hospital.onrender.com/api'
 
 const fallbackDepartments = [
   {
